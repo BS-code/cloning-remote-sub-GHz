@@ -1,2 +1,27 @@
-# cloning-remote-sub-GHz
-lat ini berfungsi untuk eh eh menangkap sinyal sub gahz eh radio frekuensi untuk multiple multiple frekuensi jadi kita bisa nanti cari frekuensinya yang sesuai kita scan cloning dan kita replay attack
+# RF-Daeva
+
+ROTARY---
+BUTTON_PIN 25    //before changed: original 27
+ROTARY_PIN_A 12     //CLK 
+ROTARY_PIN_B 15     //DT 
+ROTARY_BUTTON_PIN 25  //SW before changed: original 27
+
+BUTTON---
+BUTTON_UP_PIN 34 
+BUTTON_SELECT_PIN 25
+BUTTON_DOWN_PIN 27 
+
+CC1101---
+CSN 5
+SCK 18
+MOSI 23
+MISO 19
+GDO0 2
+GDO1 19
+GD02 4 
+VCC 3.3V
+GND GND
+
+OLED---
+SDA 22
+SCL 21
